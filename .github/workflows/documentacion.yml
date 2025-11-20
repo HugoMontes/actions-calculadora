@@ -12,7 +12,7 @@ jobs:
       - name: Instalar .NET en el runner
         uses: actions/setup-dotnet@v5.0.0
         with:
-          donet-version: '9.0.x'
+          dotnet-version: '9.0.x'
       - name: Instalar dependencias
         run: dotnet restore
       - name: Compilar
