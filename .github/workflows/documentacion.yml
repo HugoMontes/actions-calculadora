@@ -7,8 +7,8 @@ jobs:
   compila_job:
     runs-on: ubuntu-latest
     steps: 
-      - name: Saludar por Hugo Montes
-        uses: HugoMontes/hello-world-action-by-hugo-montes@v1.1
+      - name: Hello World Action By Hugo Montes
+        uses: HugoMontes/actions-javascript@v1.1
         with: 
           who-to-greet: Juan Perez
       - name: Descargar codigo del repositorio al runner
