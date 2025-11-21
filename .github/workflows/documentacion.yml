@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: Saludar por Hugo Montes
-        uses: hugomontes/hello-world-action-by-hugo-montes@v1.1
+        uses: HugoMontes/hello-world-action-by-hugo-montes@v1.1
         with: 
           who-to-greet: Juan Perez
       - name: Descargar codigo del repositorio al runner
